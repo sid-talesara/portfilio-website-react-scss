@@ -11,6 +11,7 @@ const FaqSection = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, magni?</p>
 
             </div>
+            <div className="faq-line"></div>
            </div>
 
            <div className="question">
@@ -20,6 +21,7 @@ const FaqSection = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, magni?</p>
                 
             </div>
+            <div className="faq-line"></div>
            </div>
 
            <div className="question">
@@ -29,6 +31,7 @@ const FaqSection = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, magni?</p>
                 
             </div>
+            <div className="faq-line"></div>
            </div>
 
            <div className="question">
@@ -38,6 +41,7 @@ const FaqSection = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, magni?</p>
                 
             </div>
+            <div className="faq-line"></div>
            </div>
     </div>
   )

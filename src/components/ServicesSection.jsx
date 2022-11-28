@@ -44,10 +44,10 @@ const ServicesSection = () => {
                 <p>Lorem ipsum dolor adipisicing elit. </p>
             </div>
         </div>
+        </div>    
         <div className="image">
             <img src={home2} alt="" />
         </div>
-        </div>    
     </div>
   )
 }
