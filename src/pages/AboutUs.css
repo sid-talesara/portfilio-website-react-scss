@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+body nav {
+  min-height: 10vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  background-color: #282828;
+}
+body nav a {
+  color: white;
+  text-decoration: none;
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+}
+body nav #logo {
+  font-size: 1.5rem;
+}
+body nav li {
+  padding-left: 5rem;
+  position: relative;
+}
+body .about-section {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+body .about-section .description {
+  margin: auto;
+  width: 40%;
+}
+body .about-section .description .title {
+  font-size: 2.2rem;
+}
+body .about-section .description .title h2 {
+  font-weight: 400;
+}
+body .about-section .description .title h2 span {
+  font-weight: 800;
+  color: aquamarine;
+}
+body .about-section .description p {
+  width: 80%;
+  margin: 1rem 0rem;
+  font-size: 0.8rem;
+}
+body .about-section .description button {
+  font-size: 1rem;
+  margin: 1rem 0rem;
+  padding: 0.8rem 1.6rem;
+  background-color: transparent;
+  border-color: aquamarine;
+  color: aquamarine;
+  transition: 0.5s;
+}
+body .about-section .description button:hover {
+  color: black;
+  background-color: aquamarine;
+}
+body .about-section img {
+  width: 25%;
+  margin: auto;
+}
+body .services {
+  display: flex;
+  width: 100%;
+}
+body .services .description {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+}
+body .services .description h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+body .services .description h2 span {
+  font-weight: 700;
+  color: aquamarine;
+}
+body .services .description .cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 2rem;
+}
+body .services .description .cards .card {
+  width: 16rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+body .services .description .cards .card .icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .services .description .cards .card .icon h3 {
+  padding-left: 1rem;
+}
+body .services .description .cards .card p {
+  padding-top: 0.8rem;
+}
+body .services .image {
+  margin: auto;
+  width: 50%;
+}
+body .services .image img {
+  width: 75%;
+}
+body .faq {
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+}
+body .faq h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+body .faq h2 span {
+  display: block;
+  font-weight: 800;
+  color: aquamarine;
+}
+body .faq .faq-line {
+  background: #cccccc;
+  height: 0.2rem;
+  margin: 2rem 0rem;
+  width: 100%;
+}
+body .faq .question {
+  margin: 2rem 0rem;
+  padding: 3rem 0rem;
+  cursor: pointer;
+}
+body .faq .question h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+body .faq .question .answer {
+  padding: 1rem 0rem;
+  font-weight: 300;
+}/*# sourceMappingURL=AboutUs.css.map */
