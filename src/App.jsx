@@ -1,5 +1,5 @@
 import React from "react";
-
+// components
 import Nav from "./components/Nav";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<AboutUs />}></Route>
         <Route path="/work" exact element={<OurWork />}></Route>
         <Route path="/work/:id" element={<MovieDetail />}></Route>
+        {/*here /work/:id works as the dynamic url  */}
         <Route path="contact" element={<ContactUs />}></Route>
       </Routes>
     </div>

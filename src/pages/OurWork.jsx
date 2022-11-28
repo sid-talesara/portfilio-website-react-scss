@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import OurWorkStyle from "../assets/OurWork.css";
+import OurWorkStyle from "../assets/OurWork.scss";
 // Images
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
@@ -9,9 +9,9 @@ const OurWork = () => {
   return (
     <div className="work">
       <div className="Movie">
-        <h2>The Athlete</h2>
+        <h2>The Athlete </h2>
         <div className="line"></div>
-        <Link>
+        <Link to="the-athlete">
           <img src={athlete} alt="athlete" />
         </Link>
       </div>
@@ -19,7 +19,7 @@ const OurWork = () => {
       <div className="Movie">
         <h2>The Racer</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="the-racer">
           <img src={theracer} alt="athlete" />
         </Link>
       </div>
@@ -27,7 +27,7 @@ const OurWork = () => {
       <div className="Movie">
         <h2>GoodTimes</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="good-times">
           <img src={goodtimes} alt="athlete" />
         </Link>
       </div>
