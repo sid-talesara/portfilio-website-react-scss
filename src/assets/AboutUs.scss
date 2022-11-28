@@ -85,6 +85,14 @@ body {
       margin: auto;
       // height: 80%;
     }
+
+    .waves-svg {
+      position: absolute;
+      left: 0;
+      top: 30vh;
+
+      z-index: -1;
+    }
   }
 
   .services {

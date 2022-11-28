@@ -5,9 +5,17 @@ import OurWorkStyle from "../assets/OurWork.scss";
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
+// Animation
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
 const OurWork = () => {
   return (
-    <div className="work">
+    <motion.div
+      className="work"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+    >
       <div className="Movie">
         <h2>The Athlete </h2>
         <div className="line"></div>
@@ -31,7 +39,7 @@ const OurWork = () => {
           <img src={goodtimes} alt="athlete" />
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

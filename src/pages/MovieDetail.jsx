@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { MovieState } from "../movieState";
 import MovieDetailStyled from "../assets/MovieDetails.scss";
+// Animation
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
 const MovieDetail = () => {
   let history = useLocation();
   const url = location.pathname;
@@ -16,7 +19,13 @@ const MovieDetail = () => {
   return (
     <>
       {movie && (
-        <div className="details">
+        <motion.div
+          variants={pageAnimation}
+          initial="hidden"
+          animate="show"
+          exit="exit"
+          className="details"
+        >
           <div className="headline">
             <h2>{movie.title}</h2>
             <img src={movie.mainImg} alt="" />
@@ -33,7 +42,7 @@ const MovieDetail = () => {
           <div className="image-display">
             <img src={movie.secondaryImg} alt="" />
           </div>
-        </div>
+        </motion.div>
       )}
     </>
   );
